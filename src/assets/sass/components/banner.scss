@@ -55,6 +55,12 @@ $icon-size: 32px;
     transform: opacity 200ms ease;
 }
 
+.c-banner__close,
+.c-banner__icon{
+    position: absolute;
+    top: spacing("small");
+}
+
 .c-banner {
     transition: transform 400ms ease-out 300ms;
 }
